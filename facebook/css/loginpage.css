@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1c1e21;
+}
+
+main {
+    height: 800px;
+    width: 100%;
+    background-color: #f0f2f5;
+    position: relative;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #ffffff;
+    height: 30vh;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+    max-width: 1000px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left-content {
+    width: 600px;
+    margin-right: 100px;
+    margin-top: 5vh;
+}
+
+img {
+    height: 106px;
+    margin: -28px;
+    margin-bottom: 1px;
+}
+
+.right-content {
+    width: 350px;
+    margin-left: 00px;
+    margin-top: -5vh;
+}
+
+.formm {
+    padding: 15px;
+    padding-bottom: 200px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    margin: 40px 0 0;
+    width: 370px;
+    display: block;
+    background-color: #fff;
+    height: 360px;
+}
+
+input[type="text"], input[type="password"] {
+    border-radius: 6px;
+    padding: 14px 20px;
+    width: 330px;
+    font-size: 17px;
+    line-height: 16px;
+    border: 1px solid #dddfe2;
+    margin: 8px 0
+}
+
+.login {
+    background-color: #1877f2;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    color: #fff;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.forget {
+    display: block;
+    margin: 8px 0;
+    text-decoration: none;
+}
+
+.forget:hover {
+    text-decoration: underline;
+}
+
+.line {
+    border-top: 1px solid #222;
+    opacity: 0.2;
+    margin: 8px 0;
+}
+
+.new {
+    background-color: #42b72a;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: #fff;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.right-content p {
+    font-size: 14px;
+}
+
+.createpage {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 32px;
+}
+
+.footerr {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+footer ul:first-child {
+    border-bottom: 1px solid #dddfe2;
+}
+
+footer ul:first-child li:last-child {
+    background-color: #f5f6f7;
+    border: 1px solid #ccc0d5;
+    outline: none;
+}
+
+footer ul li {
+    padding-right: 15px;
+    font-size: 12px;
+    color: #385898;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #385898;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
